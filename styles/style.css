@@ -121,20 +121,20 @@ button{
 }
 .grid__link:nth-child(1) {
     grid-area: img1;
-    background: url(../img/11.jpg) 0%/cover no-repeat;
+    background: url(../img/1111.jpg) 0%/cover no-repeat;
 }
 .grid__link:nth-child(2) {
     grid-area: img2;
-    background: url(../img/22.jpg) 0%/cover no-repeat;
+    background: url(../img/2222.jpg) 0%/cover no-repeat;
 }
 .grid__link:nth-child(3) {
     grid-area: img3;
-    background: url(../img/33.jpg) 0%/cover no-repeat;
+    background: url(../img/3333.jpg) 0%/cover no-repeat;
 }
 .grid__link:nth-child(4) {
     margin-left: 6px;
     grid-area: img4;
-    background: url(../img/44.jpg) 50% 0%/cover no-repeat;
+    background: url(../img/4444.jpg) 50% 0%/cover no-repeat;
 }
 .grid__name {
     position: absolute;
@@ -148,4 +148,14 @@ button{
 }
 .grid__link:hover .grid__name {
     opacity: 1;
+}
+.section__title {
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.section__sub {
+    text-align: center;
 }
