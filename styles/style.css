@@ -186,4 +186,24 @@ button{
 }
 .new-product__new {
     color: #CF2929;
+    margin-left: 20px;
+}
+.style {
+    display: flex;
+    justify-content: space-between;
+    height: 650px;
+}
+.style1 {
+    width: 49%;
+    height: 100%;
+    background: url(../img/41.jpg) 50% 0% no-repeat;
+    margin-top: 80px;
+}
+.style2 {
+    width: 49%;
+    background: url(../img/42.jpg) 50% 0% no-repeat;
+    height: 100%;
+}
+.style2::after {
+    
 }
