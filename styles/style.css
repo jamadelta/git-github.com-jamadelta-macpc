@@ -157,5 +157,33 @@ button{
     font-weight: 700;
 }
 .section__sub {
+    margin-bottom: 65px;
     text-align: center;
+}
+.woomens {
+    display: flex;
+    justify-content: space-between;
+}
+.new-product__img {
+    margin-bottom: 38px;
+}
+.new-product__brend {
+    display: block;
+    font-weight: 300;
+    margin-bottom: 3px;
+}
+.new-product__text {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.new-product__text:hover {
+    color: #CF2929;
+}
+
+.new-product__old {
+    text-decoration: line-through;
+}
+.new-product__new {
+    color: #CF2929;
 }
