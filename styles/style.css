@@ -197,7 +197,7 @@ button{
     width: 49%;
     height: 100%;
     background: url(../img/41.jpg) 0% 0%/550px no-repeat;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .style2 {
     position: relative;
@@ -220,6 +220,31 @@ button{
     bottom: 50px;
     margin-left: 130px;
 }
+.style__link::after {
+    position: absolute;
+    content: '';
+    bottom: -5px;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #22262A;
+    transition: .4s;
+}
 .style__link:hover {
     color: #CF2929;
+}
+.style__link:hover::after {
+    background-color: #CF2929;
+}
+.banner-wrap2 {
+    background: url(../img/51.jpg) 0%/cover no-repeat;
+    padding: 425px 0px 100px;
+    margin-top: 120px;
+}
+.bt2 {
+    margin-right: 700px; 
+}
+.btn:hover {
+    color: #22262A;
+    background-color: #e7f5f8;
 }
